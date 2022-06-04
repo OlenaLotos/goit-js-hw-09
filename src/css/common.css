@@ -32,12 +32,21 @@ img {
   font-size: 20px;
 }
 
-button {
+/* button {
   font-size: 15px;
   font-weight: bold;
-}
+} */
 
 .wrapper {
   display: flex;
   justify-content: center;
+}
+
+.btn {
+font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 120px;
+  height: 80px;
+  margin-right: 20px;
 }

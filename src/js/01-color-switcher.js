@@ -2,16 +2,16 @@ const bodyRef = document.querySelector('body');
     const buttonStartChangeColorRef = document.querySelector('button[data-start]');
 const buttonStopChangeColorRef = document.querySelector('button[data-stop]');
     
-buttonStartChangeColorRef.style.width = '60px';
-buttonStartChangeColorRef.style.height = '30px';
-buttonStartChangeColorRef.style.textTransform = 'uppercase';
+// buttonStartChangeColorRef.style.width = '60px';
+// buttonStartChangeColorRef.style.height = '30px';
+// buttonStartChangeColorRef.style.textTransform = 'uppercase';
 
 
-buttonStopChangeColorRef.style.width = '60px';
-buttonStopChangeColorRef.style.height = '30px';
-buttonStopChangeColorRef.style.textTransform = 'uppercase';
+// buttonStopChangeColorRef.style.width = '60px';
+// buttonStopChangeColorRef.style.height = '30px';
+// buttonStopChangeColorRef.style.textTransform = 'uppercase';
 
-buttonStartChangeColorRef.style.marginRight = '20px';
+// buttonStartChangeColorRef.style.marginRight = '20px';
     
     const timer = {
 intervalId: null,
