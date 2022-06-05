@@ -19,6 +19,9 @@ img {
 
 button {
   cursor: pointer;
+  font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .timer {
@@ -36,10 +39,6 @@ button {
   font-size: 20px;
 }
 
-/* button {
-  font-size: 15px;
-  font-weight: bold;
-} */
 
 .wrapper {
   display: flex;
