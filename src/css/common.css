@@ -17,6 +17,10 @@ img {
   max-width: 100%;
 }
 
+button {
+  cursor: pointer;
+}
+
 .timer {
   display: flex;
   margin-top: 30px;
