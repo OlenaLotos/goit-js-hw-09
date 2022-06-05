@@ -20,8 +20,8 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
       if (selectedDates[0] <= currentTime) {
-        window.alert('Please choose a date in the  future');
-    //   Notify.warning('Please choose a date in the  future');
+        // window.alert('Please choose a date in the  future');
+      Notify.warning('Please choose a date in the  future');
     } else {
       startBtn.disabled = false;
     }
